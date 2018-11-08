@@ -22,7 +22,7 @@ function incrementVariable() {
 
 function doWhile(array) {
   do {
-  array.shift();
+  array = array.shift();
   } while (array.length > 0);
 }
 
