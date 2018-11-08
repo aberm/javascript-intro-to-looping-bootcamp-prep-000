@@ -22,8 +22,9 @@ function incrementVariable() {
 
 function doWhile(array) {
   do {
-  array = array.shift();
+  array.shift();
   } while (array.length > 0);
+  return array
 }
 
 
